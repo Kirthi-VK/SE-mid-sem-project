@@ -1,12 +1,12 @@
-Multi Agent Research Assistant (Orchestral-AI)
+#Multi Agent Research Assistant (Orchestral-AI)
 
-Overview
+#Overview
 
 This project implements a multi gent AI system using the Orchestral AI framework. The system demonstrates how multiple agents can collaborate to perform a complex task searching and summarizing research papers.
 
 Instead of using a single large language model the system is divided into specialized agents that work together under a coordinator.
 
-Features
+#Features
 
 - Multi agent architecture
 - Local LLM execution (no API key required)
@@ -14,7 +14,7 @@ Features
 - Summarization of research topics
 - Lightweight and fast execution using small models
 
-System Architecture
+#System Architecture
 
 The system consists of three agents:
 
@@ -30,18 +30,7 @@ The system consists of three agents:
 - Summarizes the generated papers
 - Produces concise bullet points
 
-multi_agent_research_assistant (SE PROJECT)
-│
-├── main.py
-├── agents
-│   ├── coordinator_agent.py
-│   ├── search_agent.py
-│   └── summary_agent.py
-│
-├── README.md
-└── screenshots
-
-Installation
+#Installation
 
 1. Install Orchestral AI
 pip install orchestral-ai
