@@ -33,15 +33,15 @@ The system consists of three agents:
 # Installation
 
 1. Install Orchestral AI
-pip install orchestral-ai
+- pip install orchestral-ai
 
 2. Install Ollama
-Download from: https://ollama.com
+- Download from: https://ollama.com
 
 3. Pull a lightweight model
-ollama pull phi3:mini or ollama pull tinyllama:latest
+- ollama pull phi3:mini and ollama pull tinyllama:latest
 
 4. Running the Project
-python main.py
+- python main.py
 
 Enter a research topic when prompted.
